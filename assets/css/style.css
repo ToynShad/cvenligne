@@ -15,11 +15,13 @@ h2 {
     color: white;
 }
 
+
 p,
 h4 {
     text-indent: 6%;
     font-family: 'Raleway', sans-serif;
 }
+
 
 ul {
     padding-left: 10%;
@@ -27,7 +29,7 @@ ul {
 
 h3 {
     width: 90%;
-    border-left: 1rem solid #782221;
+    border-left: 5px solid #782221;
     text-indent: 6%;
     color: #000;
     background-color: #dbc2a4;
@@ -57,6 +59,7 @@ nav {
     color: white;
     background-color: #782221;
     grid-column: 1;
+
 }
 
 #bloc-2 {
@@ -96,14 +99,20 @@ h5 {
 }
 
 h3:hover {
-    border-right: 1em solid #782221;
+    border-right: 5px solid #782221;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
     text-decoration: underline;
     opacity: 70%;
+}
+
+.texte {
+    margin-left: 6%;
+    margin-right: 8%;
 }
